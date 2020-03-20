@@ -36,3 +36,8 @@ npm start
 * Change user information
 * Comment on other user's post
 * Real time comment update
+
+## Screenshots
+![Screenshot](Screenshots/ss1.png)
+![Screenshot](Screenshots/ss2.png)
+![Screenshot](Screenshots/ss3.png)
