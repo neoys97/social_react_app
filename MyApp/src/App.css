@@ -1,0 +1,298 @@
+/*general*/
+#root {
+  font-size: 100%;
+  height: 100%;
+}
+
+div {
+  text-align: center;
+}
+
+h1 {
+  font-size: 4rem;
+}
+/*login page*/
+#login_fail_message {
+  color: red;
+}
+
+#login>form * {
+  margin: 0.4rem 0.4rem;
+}
+
+.login_input_option {
+  display: inline-block;
+}
+
+.input_text {
+  max-width: 10rem;
+  display: inline-block;
+}
+
+/*header*/
+
+#header div{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#profile_pic img {
+  max-width: 8rem;
+}
+
+#profile div {
+  padding: 0 1rem;
+}
+
+#profile #username {
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: bold;
+}
+
+#sign_out_btn {
+  width: 100%;
+  text-align: right;
+}
+
+#sign_out_btn button {
+  margin: 0 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+}
+
+/* bottom content */
+
+#bottom_content {
+  display: table;
+  width:100%;
+}
+
+#bottom_content > div {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#left_panel {
+  width:20%;
+}
+
+#starred_friends_container {
+  margin: 2rem 0;
+}
+
+.starred_friends {
+  margin: 0 0 1rem 0;
+  font-size: 2rem;
+}
+
+#bottom_content, #left_panel, #right_panel {
+  border: 2px solid black;
+  border-collapse: collapse
+}
+
+/* right panel */
+
+/* post */
+.post {
+  padding: 2rem;
+}
+
+.post_bottom, .post_top {
+  padding: 0.5rem;
+}
+
+.post_top {
+  display: table;
+  width: 100%;
+}
+
+.post_top > div{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.post_top_info {
+  text-align: left;
+}
+
+.post_top_info > div {
+  padding: 0.2rem;
+  text-align: left;
+} 
+
+.post_username, .post_star {
+  display: inline-block;
+  font-size: 1.2rem;
+}
+
+.post_time, .post_location {
+  display: inline-block;
+  padding: 0 1rem 0 0;
+  font-style: italic;
+  color: rgb(100, 100, 100);
+}
+
+.post_content {
+  font-size: 1.3rem;
+}
+
+.post_image {
+  width: 40%;
+}
+
+.post_image img{
+  max-width: 15rem;
+}
+
+.post_bottom * {
+  text-align: left;
+}
+
+.comment_row, .comment_row_user {
+  padding: 0.5rem 0;
+}
+
+.comment_row > div, .comment_row_user > div {
+  display: table-cell;
+}
+
+.comment_row_user .comment_user {
+  color: purple;
+}
+
+.post_comment_time {
+  width: 15rem;
+  color: rgb(61, 114, 116);
+}
+
+.post_comment_input {
+  padding: 0.5rem 0;
+}
+
+.post_comment_input input {
+  width: 30rem;
+}
+
+.y_star, .n_star {
+  color: orange;
+  margin: 0 0.5rem;
+}
+
+/* profile */
+#profile_top {
+  position: relative;
+}
+
+#profile_top > div{
+  padding: 0.5rem;
+}
+
+#profile_top_pic {
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+}
+
+#profile_top_pic img {
+  width: 4rem;
+}
+
+#profile_top_username {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.profile_input_option {
+  display: inline-block;
+  margin: 1rem;
+}
+
+.profile_input_text {
+  max-width: 10rem;
+  margin: 1rem;
+  display: inline-block;
+}
+
+.profile_btn button{
+  margin: 0 0.5rem;
+  padding: 0.25rem 0.5rem;
+}
+
+/* responsive */
+@media only screen and (max-width: 750px) {
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  #login {
+    padding: 1rem;
+  }
+
+  .starred_friends {
+    font-size: 1.5rem;
+  }
+
+  #profile_pic img {
+    max-width: 6rem;
+  }
+  
+  #sign_out_btn button {
+    margin: 0 0.5rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 1rem;
+  }
+
+  #bottom_content{
+    display: block;
+  }
+
+  #bottom_content > div {
+    display: block;
+  }
+
+  .post_top {
+    display: block;
+    width: auto;
+  }
+  
+  #left_panel {
+    width: auto;
+  }
+
+  .post_top > div{
+    display: block;
+  }
+
+  .comment_row > div, .comment_row_user > div {
+    display: block;
+  }
+
+  .post_comment_input {
+    padding: 0.5rem;
+  }
+
+  .post_comment_input input {
+    width: 15rem;
+  }
+
+  #profile_top_pic {
+    position: relative;
+    left: 0;
+    right: 0;
+  }
+
+  .profile_input_option, .profile_btn {
+    display: block;
+  }
+
+  .profile_input_option {
+    margin: 0.5rem;
+  }
+  
+  .profile_input_text {
+    margin: 0.5rem;
+  }
+  
+}
